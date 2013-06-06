@@ -80,6 +80,8 @@ source "drivers/staging/sep/Kconfig"
 
 source "drivers/staging/iio/Kconfig"
 
+source "drivers/staging/snappy/Kconfig"
+
 source "drivers/staging/zram/Kconfig"
 
 source "drivers/staging/zcache/Kconfig"
@@ -133,5 +135,9 @@ source "drivers/staging/telephony/Kconfig"
 source "drivers/staging/ramster/Kconfig"
 
 source "drivers/staging/ozwpan/Kconfig"
+
+source "drivers/staging/media/Kconfig"
+
+source "drivers/staging/cpupower/Kconfig" 
 
 endif # STAGING
