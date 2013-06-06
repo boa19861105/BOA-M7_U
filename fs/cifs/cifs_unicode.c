@@ -216,7 +216,7 @@ cifs_strtoUCS(__le16 *to, const char *from, int len,
 	}
 
 	put_unaligned_le16(0, &to[i]);
-	return i;
+	return j;
 }
 
 /*
